@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	 <script src="jquery-3.4.1.min.js">
+	 </script>
+	 <script>
+	     $(document).ready(function() {
+		     $("#but1").click(function() {
+			     $("tr:odd").hide();
+				 });
+			 $("#but2").click(function() {
+			     $("tr:odd").show();
+				 });
+			 }); 
+	 </script>		 
+   </head>
+   <body>	
+  	 <button id="but1">Скрыть чётные строки</button>	
+	 <button id="but2">Показать чётные строки<br></button>	 
+     <p><table>
+  <tr>
+     <th>Один</th> 
+  </tr>
+  <tr>
+     <th>Два</th> 
+  </tr>
+  <tr>
+     <th>Три</th> 
+  </tr>
+  <tr>
+     <th>Четыре</th> 
+  </tr>
+  <tr>
+     <th>Пять</th> 
+  </tr>
+  <tr>
+     <th>Шесть</th> 
+  </tr>
+  <tr>
+     <th>Семь</th> 
+  </tr>
+  <tr>
+     <th>Восемь</th> 
+  </tr>
+  <tr>
+     <th>Девять</th> 
+  </tr>
+  <tr>
+     <th>Десять</th> 
+  </tr>
+ </table></p> 
+</body>
+</html>
